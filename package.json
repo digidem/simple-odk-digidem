@@ -1,0 +1,22 @@
+{
+  "name": "simple-odk-digidem",
+  "version": "1.0.0",
+  "description": "Simple ODK server configured for Dd production use",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gregor MacLennan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digidem/simple-odk-digidem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digidem/simple-odk-digidem/issues"
+  },
+  "homepage": "https://github.com/digidem/simple-odk-digidem#readme",
+  "dependencies": {
+    "simple-odk": "^1.2.2-dev"
+  }
+}

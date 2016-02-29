@@ -1,0 +1,19 @@
+{
+  "corpiaa": {
+    "formStore": "github",
+    "user": "digidem",
+    "repo": "veeduria-data",
+    "s3bucket": "images.corpiaa.org"
+  },
+  "wapichanao": {
+    "formStore": "github",
+    "user": "digidem",
+    "repo": "wapichanao-data",
+    "s3bucket": "images.wapichanao.org"
+  },
+  "test": {
+    "formStore": "gist",
+    "gist_id": "0e068989680d7646ecfd",
+    "s3bucket": "odk-images.digital-democracy.org"
+  }
+}
