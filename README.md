@@ -90,3 +90,14 @@ Once the environment variables are set we can deploy a new version of simple-odk
 ```sh
 git push dokku master
 ```
+
+## SSL Certificates
+
+In order for ODK Collect to make a secure connection to our server we need to have valid SSL certificates for each domain. This is all managed by the amazing [dokku-letsencrypt](https://github.com/dokku/dokku-letsencrypt) plugin, which is installed by default by our server config script.
+
+1. Once all the domains are configured for simple-odk, remove the default sub-domain e.g. `dt domains:remove simple-odk.apps.digital-democracy.org`.
+2. Make sure that the DNS is configured for all domains so that they point to this server.
+3. Run `dt letsencrypt` and sit back, certificates will be downloaded and configured.
+
+LetsEncrypt certificates are only valid for 90 days, so we set up a cron job on the server to auto-renew all certificates using [these instructions](https://blog.semicolonsoftware.de/running-dokku-letsencrypt-auto-renewal-as-a-cronjob/).
+
