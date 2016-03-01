@@ -1,0 +1,5 @@
+# Dokku will run this check against the server before completing
+# the deployment
+# http://dokku.viewdocs.io/dokku/checks-examples/
+
+/   Simple ODK Server ready to receive submissions
