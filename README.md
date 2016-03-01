@@ -44,6 +44,7 @@ Simple-ODK uses environment variables for configuration of API keys. The followi
 - **S3_BUCKET**: This is the default S3 bucket where media will be stored.
 - **S3_KEY**: Your [S3 Access Key ID](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html). The S3 bucket should have `s3:PutObject` and `s3:PutObjectAcl` permission for the user associated with this key.
 - **S3_SECRET**: [S3 Secret Key](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html) associated with the Key ID.
+- **NEWRELIC_KEY**: A [New Relic](http://newrelic.com) [Rest API Key](https://docs.newrelic.com/docs/accounts-partnerships/accounts/account-setup/license-key#finding) for sending application monitoring data to New Relic.
 
 By default all media is uploaded to `S3_BUCKET` and the form upload is defined by the URL. E.g. `http://simple-odk-server.com/gh/digidem/sample-monitoring-data/submission` will post a form to the github repo `digidem/sample-monitoring-data`. We can set up aliases and virtual hosts (deprecated) to avoid long, complex URLs and allow the storage backend to be changed without updating the URLs on every phone with ODK Collect.
 
