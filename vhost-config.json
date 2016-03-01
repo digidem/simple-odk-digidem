@@ -3,7 +3,7 @@
     "formStore": "github",
     "user": "digidem",
     "repo": "veeduria-data",
-    "s3bucket": "odk-images.digital-democracy.org"
+    "s3bucket": "images.corpiaa.org"
   },
   "odk.wapichanao.org": {
     "formStore": "github",

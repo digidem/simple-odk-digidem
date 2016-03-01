@@ -14,6 +14,6 @@
   "test": {
     "formStore": "gist",
     "gist_id": "0e068989680d7646ecfd",
-    "s3bucket": "odk-images.digital-democracy.org"
+    "s3bucket": "simple-odk"
   }
 }
