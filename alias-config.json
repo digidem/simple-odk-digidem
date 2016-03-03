@@ -5,6 +5,12 @@
     "repo": "veeduria-data",
     "s3bucket": "images.corpiaa.org"
   },
+  "corpiaa-test": {
+    "formStore": "github",
+    "user": "corpiaa",
+    "repo": "test-data",
+    "s3bucket": "simple-odk"
+  },
   "wapichanao": {
     "formStore": "github",
     "user": "digidem",
