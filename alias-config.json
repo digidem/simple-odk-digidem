@@ -21,5 +21,11 @@
     "formStore": "gist",
     "gist_id": "0e068989680d7646ecfd",
     "s3bucket": "simple-odk"
+  },
+  "fediquep": {
+    "formStore": "github",
+    "user": "digidem",
+    "repo": "fediquep-data",
+    "s3bucket": "simple-odk"
   }
 }
