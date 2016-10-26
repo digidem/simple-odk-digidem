@@ -18,6 +18,6 @@
   "homepage": "https://github.com/digidem/simple-odk-digidem#readme",
   "dependencies": {
     "newrelic": "^1.25.4",
-    "simple-odk": "^3.0.0-dev"
+    "simple-odk": "^3.0.1-dev"
   }
 }
